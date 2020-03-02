@@ -1,0 +1,17 @@
+.container{
+    position: relative;
+    margin: 5% 25% 0px;
+    text-align: center;    
+    border: 1px dashed black;
+    border-radius: 40px;
+    background-color: #E3EFEF;
+}
+button{
+    position: absolute;
+    right: 20%;
+}
+li{
+    list-style-type: none;
+    margin-right: 40%;
+    margin-top: 15px;
+}

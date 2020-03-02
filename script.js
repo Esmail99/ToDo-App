@@ -29,10 +29,14 @@ function addingToList(){
 function clicking(){
     if(userInput.value)  //checking if the input is empty or not!
         addingToList();
+    else
+        alert('Input is empty!')
 }
 function pressing(){
     if(userInput.value && event.keyCode === 13)  //checking if the input is empty or not and make Enter button on the keyboard working!
         addingToList();
+    else if (event.keyCode === 13)
+        alert('Input is empty!')
 }
 function deleting(){
     localStorage.removeItem(this.parentElement.innerHTML); //remove items from the localstorage!
